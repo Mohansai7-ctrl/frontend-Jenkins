@@ -1,0 +1,7 @@
+deployment:
+  imageURL: 022499022353.dkr.ecr.us-east-1.amazonaws.com/expense/dev/frontend
+  imageVersion: IMAGE_VERSION
+hpa:
+  cpuUtilization: 15
+tgb:
+  arn: 
